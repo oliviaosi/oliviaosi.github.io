@@ -92,10 +92,10 @@ section{
     align-items: center;
 }
 
-.hidden{
+/* .hidden{
     display: none !important;
 
-}
+} */
 .sec-padding{
     padding: 80px 0;
 }
@@ -219,7 +219,7 @@ button{
     margin:auto;
 }
 
-.home-img .img-box img{
+.home-img .img-box{
     width: 100%;
     border-radius: 50%;
 }
@@ -234,7 +234,7 @@ button{
     padding: 0 15px;
 }
 
-.about-img .img-box{
+.about-img .img-box {
     background-color: var(--white-alpha-25);
     max-width: 380px;
     border:1px solid var(--white-alpha-40);
@@ -366,4 +366,113 @@ button{
 }
 .about-text .btn{
     margin: 0 15px 15px 0;
+}
+
+/* body {
+    background-color: #475F94;
+    color: #fff;
+    font-family: "Gill Sans", sans-serif;
+} */
+
+header {
+    border-bottom: 2px solid #FDDC5C;
+    text-align: center;
+}
+
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #FDDC5C;
+}
+
+.form-item label {
+    display: flex; 
+    float: left;
+    flex-basis: 150px;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+
+
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #FA4224;
+}
+
+.form-item input,
+.form-item textarea {
+    border: 2px solid var(--white-alpha-25);
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+/* .form-item button:hover {
+    border: 2px solid var(--main-color);
+    background-color: var(--main-color);
+    color: #FFF;
+} */
+
+/* .form-item button {
+    width: 100px;
+} */ 
+
+.form-item .btn{
+    width:100px;
+    margin: 0 15px 15px 0;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 40px;
+    text-decoration: none;
+    margin: 5px 10px;
 }
