@@ -60,10 +60,6 @@ h1,h2{
 h3,h4,h5,h6{
     font-weight: 500;
 }
-img{
-    max-width: 100%;
-    vertical-align: middle;
-}
 
 section{
     /* display: flex; */
@@ -223,6 +219,8 @@ button{
 .home-img .img-box img{
     width: 100%;
     border-radius: 50%;
+    max-width: 100%;
+    vertical-align: middle;
     
 }
 
