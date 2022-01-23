@@ -220,7 +220,7 @@ button{
     width: 100%;
     border-radius: 50%;
     max-width: 100%;
-    vertical-align: middle;
+
     
 }
 
@@ -228,6 +228,7 @@ button{
 .about-img img{
     width: 100%;
     padding: 10px;
+    
     
 }
 .about-text{
