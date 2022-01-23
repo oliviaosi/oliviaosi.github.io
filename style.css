@@ -109,6 +109,7 @@ section{
 .section-title h2{
     font-size: 40px;
     text-transform: capitalize;
+    margin-bottom: 40px;
 }
 
 /* customer scrollbar */
@@ -211,7 +212,7 @@ button{
     margin: 0 15px 15px 0;
 }
 
-.home-img .img-box{
+.home-img .img-box {
     max-width: 360px;
     background-color: var(--white-alpha-25);
     border-radius: 50%;
@@ -219,19 +220,21 @@ button{
     margin:auto;
 }
 
-.home-img .img-box{
+.home-img .img-box img{
     width: 100%;
     border-radius: 50%;
+    
 }
 
 /* about section */
-.about-img{
-    width: 40%;
-    padding: 0 15px;
+.about-img img{
+    width: 100%;
+    padding: 10px;
+    
 }
 .about-text{
     width: 60%;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .about-img .img-box {
@@ -239,6 +242,8 @@ button{
     max-width: 380px;
     border:1px solid var(--white-alpha-40);
     margin: auto;
+    margin-right: 30px;
+    margin-bottom: 30px;
     border-radius: 10px;
 }
 
@@ -459,8 +464,8 @@ footer{
     color: white;
 }
 
-.fa-pinterest {
-    background: #cb2027;
+.fa-github {
+    background: #4B0082;
     color: white;
 }
 
@@ -470,9 +475,10 @@ footer{
 }
 
 .fa {
-    padding: 20px;
-    font-size: 40px;
-    width: 40px;
+    padding: 8px;
+    font-size: 30px;
+    width: 45px;
     text-decoration: none;
-    margin: 5px 10px;
+    margin: 8px 8px;
+    border-radius: 30px;
 }
